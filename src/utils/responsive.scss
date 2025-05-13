@@ -1,0 +1,16 @@
+/* 响应式适配方案 */
+html {
+  font-size: 100px;
+}
+
+@media screen and (max-width: 750px) {
+  html {
+    font-size: calc(100vw / 7.5);
+  }
+}
+
+@media screen and (min-width: 750px) {
+  html {
+    font-size: 100px;
+  }
+}
