@@ -1,13 +1,11 @@
 import React from 'react';
-import { View, Text } from '@tarojs/components';
+import { View } from '@tarojs/components';
 import './index.scss';
 
-const My: React.FC = () => {
+export default function My() {
   return (
-    <View className="page">
-      <Text>我的游记页面</Text>
+    <View className='my'>
+      {/* 页面内容 */}
     </View>
   );
-};
-
-export default My;
+}

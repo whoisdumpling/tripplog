@@ -2,12 +2,10 @@ import React from 'react';
 import { View, Text } from '@tarojs/components';
 import './index.scss';
 
-const Edit: React.FC = () => {
+export default function Edit() {
   return (
-    <View className="page">
-      <Text>游记编辑页面</Text>
+    <View className='edit'>
+      {/* 页面内容 */}
     </View>
   );
-};
-
-export default Edit;
+}

@@ -49,6 +49,7 @@
   padding: 20rpx;
   background-color: #f5f5f5;
   box-sizing: border-box; /* 确保内容宽度计算正确 */
+  margin-bottom: 100rpx; /* 留出底部栏的空间 */
 }
 
 .travel-log-card {
@@ -94,4 +95,29 @@
 .author-name {
   font-size: 28rpx;
   color: #666;
+}
+
+.bottom-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fff;
+  height: 100rpx;
+  border-top: 1rpx solid #ccc;
+  z-index: 10;
+}
+
+.bottom-bar-item {
+  font-size: 32rpx;
+  color: #666;
+  cursor: pointer;
+}
+
+.bottom-bar-item.active {
+  color: #000;
+  font-weight: bold;
 }
